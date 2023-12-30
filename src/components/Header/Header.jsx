@@ -10,7 +10,7 @@ import { IoMdMail } from "react-icons/io";
 import { FaPhoneAlt } from "react-icons/fa";
 function Header() {
   return (
-    <div className="bg-[#010F58] p-5">
+    <div className="bg-[#010F58] p-5 hidden lg:block">
       <div className="flex justify-between">
         <div className="flex text-white left gap-x-4">
           <div className="flex items-center gap-x-3">
