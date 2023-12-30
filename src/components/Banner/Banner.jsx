@@ -14,6 +14,20 @@ function Banner() {
               provide a selection of thoughtfully designed rentals, ensuring
               comfort and convenience.
             </p>
+            <div className="">
+              <div className="topTab bg-[#FF5017] w-[250px] space-x-4 py-3 px-3">
+                <button className="active">Sell</button>
+                <button className="active bg-white text-[#FF5017] rounded p-2">
+                  Rent
+                </button>
+                <button className="active">Buy</button>
+              </div>
+              <div className="bottomTab w-[800px] ">
+                <div>
+                  <p>type</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
