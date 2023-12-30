@@ -11,7 +11,7 @@ function Header() {
               <FaLocationDot className="absolute text-3xl text-[#FF5017] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" />
             </div>
 
-            <p> 7124 Landmark Tower,New York</p>
+            <p>7124 Landmark Tower,New York</p>
           </div>
           <div className="flex items-center gap-x-3">
             <div className="h-[50px] w-[50px] rounded-full bg-white relative">
