@@ -1,0 +1,8 @@
+.left {
+  clip-path: polygon(75% 0, 100% 50%, 75% 100%, 0 100%, 0 0);
+}
+.bannerImg {
+  position: absolute;
+  left: 560px;
+  z-index: -1;
+}
