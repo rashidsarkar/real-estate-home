@@ -77,13 +77,13 @@ function About() {
                   alt=""
                 />
               </div>
-              <div className="text-xl font-semibold">
+              <div className="font-semibold text-">
                 <p>
                   <span className="text-[#FF5017]">David Smith</span> ( CEO Of
                   Kavinax Property )
                 </p>
                 <div className="flex items-center gap-2">
-                  <div className="h-[50px] w-[50px] rounded-xl  bg-[#FF5017]  p-3 relative">
+                  <div className="h-[40px] w-[40px] rounded-xl  bg-[#FF5017]  p-3 relative">
                     <IoCall className="absolute text-2xl text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" />
                   </div>
                   <p>
