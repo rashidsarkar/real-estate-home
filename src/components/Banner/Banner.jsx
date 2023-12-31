@@ -1,5 +1,13 @@
 import bannerImg from "../../assets/banner/banner.png";
-import { FaArrowCircleDown, FaSearch } from "react-icons/fa";
+import {
+  FaArrowCircleDown,
+  FaSearch,
+  FaRegArrowAltCircleLeft,
+  FaRegArrowAltCircleRight,
+  FaChevronLeft,
+  FaChevronRight,
+} from "react-icons/fa";
+
 import "./banner.css";
 function Banner() {
   return (
@@ -34,82 +42,101 @@ function Banner() {
       <div className="absolute text-white rounded bannerInput">
         <div className="bottomTab  flex gap-3  mt-4 bg-[#FF5017] p-4 z-40 ">
           <div>
-            <label for="input-group-1" className="block mb-2 font-medium ">
-              Type
-            </label>
-            <div className="relative mb-6">
-              <input
-                type="text"
-                id="input-group-1"
-                className="bg-gray-50 border w-[210px] border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  ps-3 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                placeholder="Property Type"
-              />
-              <div className="absolute left-[155px] inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
-                <FaArrowCircleDown className="text-black" />
+            <div className="group w-72 md:w-80 lg:w-40 ">
+              <label className="inline-block w-full mb-2 font-medium transition-all duration-200 ease-in-out group-focus-within:text-blue-400">
+                Type
+              </label>
+              <div className="relative flex items-center">
+                <input
+                  id="5"
+                  placeholder="Property Type"
+                  type="text"
+                  className="relative w-full h-10 pl-4 pr-10 font-thin text-gray-700 transition-all duration-200 ease-in-out rounded-md outline-none peer bg-gray-50 drop-shadow-sm focus:bg-white focus:ring-2 focus:ring-black focus:drop-shadow-lg"
+                />
+                <span className="absolute transition-all duration-200 ease-in-out material-symbols-outlined right-2 group-focus-within:text-black">
+                  <FaArrowCircleDown className="text-black" />
+                </span>
               </div>
             </div>
           </div>
           <div>
-            <label for="input-group-1" className="block mb-2 font-medium ">
-              Your Location
-            </label>
-            <div className="relative mb-6">
-              <input
-                type="text"
-                id="input-group-1"
-                className="bg-gray-50 border w-[210px] border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  ps-3 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                placeholder="Your Location"
-              />
-              <div className="absolute left-[155px] inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
-                <FaArrowCircleDown className="text-black" />
+            <div className="w-40 group ">
+              <label className="inline-block w-full mb-2 font-medium transition-all duration-200 ease-in-out group-focus-within:text-blue-400">
+                Your Location
+              </label>
+              <div className="relative flex items-center">
+                <input
+                  id="5"
+                  placeholder="Your Location"
+                  type="text"
+                  className="relative w-full h-10 pl-4 pr-10 font-thin text-gray-700 transition-all duration-200 ease-in-out rounded-md outline-none peer bg-gray-50 drop-shadow-sm focus:bg-white focus:ring-2 focus:ring-black focus:drop-shadow-lg"
+                />
+                <span className="absolute transition-all duration-200 ease-in-out material-symbols-outlined right-2 group-focus-within:text-black">
+                  <FaArrowCircleDown className="text-black" />
+                </span>
               </div>
             </div>
           </div>
           <div>
-            <label for="input-group-1" className="block mb-2 font-medium ">
-              Bed/Bathrooms
-            </label>
-            <div className="relative mb-6">
-              <input
-                type="text"
-                id="input-group-1"
-                className="bg-gray-50 border w-[210px] border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  ps-3 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                placeholder="Bed/Bathrooms"
-              />
-              <div className="absolute left-[155px] inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
-                <FaArrowCircleDown className="text-black" />
+            <div className="w-40 group ">
+              <label className="inline-block w-full mb-2 font-medium transition-all duration-200 ease-in-out group-focus-within:text-blue-400">
+                Bed/Bathrooms
+              </label>
+              <div className="relative flex items-center">
+                <input
+                  id="5"
+                  placeholder="00 Bed / 00 Bathrooms"
+                  type="text"
+                  className="relative w-full h-10 pl-4 pr-10 font-thin text-gray-700 transition-all duration-200 ease-in-out rounded-md outline-none peer bg-gray-50 drop-shadow-sm focus:bg-white focus:ring-2 focus:ring-black focus:drop-shadow-lg"
+                />
+                <span className="absolute transition-all duration-200 ease-in-out material-symbols-outlined right-2 group-focus-within:text-black">
+                  <FaArrowCircleDown className="text-black" />
+                </span>
               </div>
             </div>
           </div>
           <div>
-            <label for="input-group-1" className="block mb-2 font-medium ">
-              Price
-            </label>
-            <div className="relative mb-6">
-              <input
-                type="text"
-                id="input-group-1"
-                className="bg-gray-50 border w-[210px] border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  ps-3 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                placeholder="Price"
-              />
-              <div className="absolute left-[155px] inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
-                <FaArrowCircleDown className="text-black" />
+            <div className="w-40 group ">
+              <label className="inline-block w-full mb-2 font-medium transition-all duration-200 ease-in-out group-focus-within:text-blue-400">
+                Price
+              </label>
+              <div className="relative flex items-center">
+                <input
+                  id="5"
+                  placeholder="Price"
+                  type="text"
+                  className="relative w-full h-10 pl-4 pr-10 font-thin text-gray-700 transition-all duration-200 ease-in-out rounded-md outline-none peer bg-gray-50 drop-shadow-sm focus:bg-white focus:ring-2 focus:ring-black focus:drop-shadow-lg"
+                />
+                <span className="absolute transition-all duration-200 ease-in-out material-symbols-outlined right-2 group-focus-within:text-black">
+                  <FaArrowCircleDown className="text-black" />
+                </span>
               </div>
             </div>
           </div>
-          <div>
-            <div className="relative flex items-center top-[30px] mb-6">
-              <input
-                type="text"
-                id="input-group-1"
-                className="bg-gray-50 overflow-hidden border w-[210px] border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  ps-3 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                placeholder="Search"
-              />
-              <div className="absolute bg-blue-600 justify-center rounded    left-[155px] inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
-                <FaSearch className="mr-[25px] rounded text-center text-black" />
+          <div className="flex items-end">
+            <div className="w-40 group">
+              <div className="relative flex items-center">
+                <input
+                  id="8"
+                  type="text"
+                  className="relative w-full h-10 pl-4 pr-20 font-thin text-gray-700 transition-all duration-200 ease-in-out rounded-md outline-none peer bg-gray-50 drop-shadow-sm focus:bg-white focus:drop-shadow-lg"
+                  placeholder="Search"
+                />
+                <button className="absolute right-0 flex items-center justify-center w-16 h-10 text-xs font-semibold text-white transition-all duration-200 ease-in-out bg-blue-600 rounded-r-md group-focus-within:bg-b group-focus-within:hover:bg-blue-600">
+                  <FaSearch />
+                </button>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="absolute flex items-center justify-between w-full mx-auto ml-5 text-5xl translate-y-1/2 bottom-1/2">
+        <div className="h-[50px] w-[50px] rounded-full border-red-300 border relative">
+          <FaChevronLeft className="absolute text-3xl text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" />
+        </div>
+        {/* <FaRegArrowAltCircleLeft className="ml-6 text-white" /> */}
+        <div className="h-[50px] w-[50px] rounded-full bg-[#FF5017] mr-[50px] relative">
+          <FaChevronRight className="absolute text-3xl text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" />
         </div>
       </div>
     </div>
