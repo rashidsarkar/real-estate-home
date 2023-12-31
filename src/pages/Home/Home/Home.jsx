@@ -6,6 +6,7 @@ import OurCities from "../../../components/OurCities/OurCities";
 import OurProperty from "../../../components/OurProperty/OurProperty";
 import Services from "../../../components/Services/Services";
 import Video from "../../../components/Video/Video";
+import Works from "../../../components/Works/Works";
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
       <FindChoose />
       <OurProperty />
       <OurCities />
+      <Works />
     </div>
   );
 }
