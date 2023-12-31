@@ -12,7 +12,7 @@ import "./banner.css";
 function Banner() {
   return (
     <div className="flex flex-col  lg:flex-row h-[650px] relative ">
-      <div className="bg-[#010F58] lg:w-[60%] h-full left  text-white flex items-center justify-center">
+      <div className="bg-[#010F58] lg:w-[60%] h-full lefttt  text-white flex items-center justify-center">
         <div className="flex items-center justify-center">
           <div className="textContent w-[500px] space-y-4">
             <h2 className="text-3xl font-bold ">

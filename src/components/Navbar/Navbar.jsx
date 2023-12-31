@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import Logo from "../../assets/header/Logo.png";
+import { FaRegCircleDown } from "react-icons/fa6";
 import "./navbar.css";
 function Navbar() {
   const navLinks = (
@@ -51,13 +52,16 @@ function Navbar() {
           to="/Pages"
           className={({ isActive, isPending }) =>
             isPending
-              ? "pending text-[#021327] "
+              ? "pending text-[#021327]  "
               : isActive
-              ? "text-[#FF5017] font-semibold"
+              ? "text-[#FF5017] font-semibold "
               : ""
           }
         >
-          Pages
+          <div className="flex items-center gap-2 ">
+            Pages
+            <FaRegCircleDown />
+          </div>
         </NavLink>
       </li>
       <li>
