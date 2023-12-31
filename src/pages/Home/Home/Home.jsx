@@ -1,4 +1,5 @@
 import About from "../../../components/About/About";
+import Agents from "../../../components/Agents/Agents";
 import Banner from "../../../components/Banner/Banner";
 import Categories from "../../../components/Categories/Categories";
 import FindChoose from "../../../components/FindChoose/FindChoose";
@@ -20,6 +21,7 @@ function Home() {
       <OurProperty />
       <OurCities />
       <Works />
+      <Agents />
     </div>
   );
 }
