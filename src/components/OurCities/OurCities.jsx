@@ -100,7 +100,7 @@ function OurCities() {
                     className="bg-[#FF5017] mask mask-star-2 mask-half-2"
                   />
                 </div>
-                <p className="text-[#FF5017]  text-xl font-semibold">4.5</p>
+                <p className="text-[#FF5017]  text-xl font-semibold">5</p>
               </div>
               <div className="relative">
                 <svg
@@ -235,58 +235,58 @@ function OurCities() {
                 <div className="rating rating-md rating-half">
                   <input
                     type="radio"
-                    name="rating-10"
+                    name="rating-10a"
                     className="rating-hidden"
                   />
                   <input
                     type="radio"
-                    name="rating-10"
+                    name="rating-10a"
                     className="bg-[#FF5017] mask mask-star-2 mask-half-1"
                   />
                   <input
                     type="radio"
-                    name="rating-10"
+                    name="rating-10a"
                     className="bg-[#FF5017] mask mask-star-2 mask-half-2"
                   />
                   <input
                     type="radio"
-                    name="rating-10"
+                    name="rating-10a"
                     className="bg-[#FF5017] mask mask-star-2 mask-half-1"
                   />
                   <input
                     type="radio"
-                    name="rating-10"
+                    name="rating-10a"
                     className="bg-[#FF5017] mask mask-star-2 mask-half-2"
                   />
                   <input
                     type="radio"
-                    name="rating-10"
+                    name="rating-10a"
                     className="bg-[#FF5017] mask mask-star-2 mask-half-1"
                   />
                   <input
                     type="radio"
-                    name="rating-10"
+                    name="rating-10a"
                     className="bg-[#FF5017] mask mask-star-2 mask-half-2"
                   />
                   <input
                     type="radio"
-                    name="rating-10"
+                    name="rating-10a"
                     className="bg-[#FF5017] mask mask-star-2 mask-half-1"
                     checked
                   />
                   <input
                     type="radio"
-                    name="rating-10"
+                    name="rating-10a"
                     className="bg-[#FF5017] mask mask-star-2 mask-half-2"
                   />
                   <input
                     type="radio"
-                    name="rating-10"
+                    name="rating-10a"
                     className="bg-[#FF5017] mask mask-star-2 mask-half-1"
                   />
                   <input
                     type="radio"
-                    name="rating-10"
+                    name="rating-10a"
                     className="bg-[#FF5017] mask mask-star-2 mask-half-2"
                   />
                 </div>
