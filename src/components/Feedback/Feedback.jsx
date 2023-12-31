@@ -90,7 +90,7 @@ function Feedback() {
           <div className="flex items-end justify-between">
             <div className="avatar">
               <div className="w-24 rounded-full">
-                <img src="https://i.ibb.co/sHvNF2s/ae4134169130626f5a6ff03cd06719fb.png" />
+                <img src="https://i.ibb.co/Qjvzd8Y/268a0c3f24ae8c3bf1ad6f0bac7cbd79.png" />
               </div>
             </div>
             <div className="rating rating-md rating-half">
@@ -163,7 +163,7 @@ function Feedback() {
           <div className="flex items-end justify-between">
             <div className="avatar">
               <div className="w-24 rounded-full">
-                <img src="https://i.ibb.co/sHvNF2s/ae4134169130626f5a6ff03cd06719fb.png" />
+                <img src="https://i.ibb.co/Tg9F5hS/5ab1fb3f8707d4b43d1bbc10c1af9597.png" />
               </div>
             </div>
             <div className="rating rating-md rating-half">
