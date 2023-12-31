@@ -1,3 +1,5 @@
+import { FaFacebookF } from "react-icons/fa6";
+import { IoMdMail } from "react-icons/io";
 import "./subscribe.css";
 function Subscribe() {
   return (
@@ -41,6 +43,9 @@ function Subscribe() {
             </div>
             <div className="grid grid-cols-4 gap-4"></div>
           </div>
+        </div>
+        <div className="h-[50px] w-[50px] rounded-full absolute top-0 SubscribeIcon  bg-[#010F58] ">
+          <IoMdMail className="absolute text-3xl text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" />
         </div>
       </div>
     </div>

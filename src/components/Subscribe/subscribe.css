@@ -1,3 +1,9 @@
 .overLayBga {
   background-color: rgba(1, 15, 88, 0.9);
 }
+.SubscribeIcon {
+  border: 5px solid white;
+  top: -27px;
+  left: 50%;
+  transform: translateX(-50%);
+}
