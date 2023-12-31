@@ -162,9 +162,77 @@ const Footer = () => {
           </div>
           <div className="bg-[#FF5017]">
             <div className="container px-5 py-4 mx-auto">
-              <p className="text-sm text-gray-700 capitalize xl:text-center">
-                © 2020 All rights reserved{" "}
-              </p>
+              <div className="flex items-center justify-between">
+                <p className="text-sm text-white capitalize xl:text-center">
+                  ©2022 Kavinax Property. All Rights Reserved.
+                </p>
+                <div className="flex gap-2">
+                  <div className="flex items-center gap-2">
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="23"
+                        height="28"
+                        viewBox="0 0 23 28"
+                        fill="none"
+                      >
+                        <g clip-path="url(#clip0_1_123)">
+                          <path
+                            d="M22.681 9.6804C22.7333 12.3004 22.7774 14.9122 21.8618 17.4307C20.1991 22.0166 17.2553 25.3272 12.6449 27.021C12.0144 27.2525 11.428 27.2647 10.8055 27.0332C5.47221 25.055 2.38386 21.1068 1.04651 15.6353C0.813576 14.6766 0.713174 13.6936 0.713174 12.7025C0.721206 10.4075 0.729238 8.11247 0.705142 5.81745C0.701126 5.28533 0.885865 4.99287 1.36378 4.77759C4.64088 3.30715 7.91398 1.8164 11.1831 0.325653C11.5445 0.159111 11.8698 0.155049 12.2393 0.325653C15.4602 1.80015 18.677 3.27465 21.914 4.71259C22.5284 4.98475 22.7172 5.35845 22.6931 6.00024C22.6529 7.2229 22.681 8.45368 22.681 9.6804ZM9.2955 19.5916C9.56056 19.5348 9.71317 19.2951 9.8939 19.1123C12.5084 16.472 15.1349 13.8399 17.7292 11.1793C19.0666 9.80632 19.1549 10.3303 17.6449 8.73396C17.3798 8.45368 17.171 8.45774 16.926 8.73802C16.7694 8.91675 16.5927 9.07923 16.42 9.24577C14.2031 11.4595 11.9782 13.6652 9.78145 15.8993C9.36378 16.3258 9.09068 16.338 8.70113 15.8912C8.24731 15.3712 7.73727 14.9 7.25534 14.4126C6.0706 13.2143 6.08265 13.2265 4.95414 14.4451C4.6208 14.8066 4.64088 15.0422 4.9702 15.3712C6.26337 16.667 7.53647 17.9831 8.82161 19.2911C8.95815 19.421 9.07864 19.5713 9.2955 19.5916Z"
+                            fill="#F8FAFA"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_1_123">
+                            <rect
+                              width="22"
+                              height="27"
+                              fill="white"
+                              transform="translate(0.705078 0.200195)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <p>Secure Payments</p>
+                  </div>
+                  <div className=" w-[100px] h-[38px] flex justify-center items-center bg-white rounded">
+                    <img
+                      src="https://i.ibb.co/2MCgfNt/5323abfc22c7e1fd0da62bffb6a4f3be.png"
+                      alt=""
+                      className="w-[60px] h-[17px]"
+                    />
+                  </div>
+                  <div className=" w-[100px] h-[38px] flex justify-center items-center bg-white rounded">
+                    <img
+                      src="https://i.ibb.co/D7vxkrd/49bee202e7871165211a2c19ae111315.png"
+                      alt=""
+                      className="w-[24px] h-[17px]"
+                    />
+                  </div>
+                  <div className=" w-[100px] h-[38px] flex justify-center items-center bg-white rounded">
+                    <img
+                      src="https://i.ibb.co/vJpgQt2/01b240273b40dab07f8246ef98aed88a.png"
+                      alt=""
+                      className="w-[45px] h-[17px]"
+                    />
+                  </div>
+                  <div className="px-5 bg-white rounded">
+                    <img
+                      src="https://i.ibb.co/p2dvBNc/7a07f1d6dae7e7c284f383ef52580247.png"
+                      alt=""
+                      className="w-[67px] h-[38px]"
+                    />
+                  </div>
+                  <div className=" w-[100px] h-[38px] flex justify-center items-center bg-white rounded">
+                    <img
+                      src="https://i.ibb.co/YZqtGhh/aa73c6f58e3738daf12804b6446f57fc.png"
+                      alt=""
+                      className="w-[21px] h-[17px]"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </footer>
