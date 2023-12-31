@@ -233,6 +233,9 @@ function Feedback() {
           </div>
         </div>
       </div>
+      <div className="flex items-center justify-center my-5">
+        <img src="https://i.ibb.co/kcxcQHZ/Slider.png" className="" alt="" />
+      </div>
     </div>
   );
 }
